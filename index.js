@@ -36,4 +36,6 @@
 
 // console.log(moment().format("LLLL"))
 
-console.log(moment("3/10/1993", "MM DD YYYY").format("dddd [the] Do [of] MMM [in the year] YYYY"));
+// console.log(moment("3/10/1993", "MM DD YYYY").format("dddd [the] Do [of] MMM [in the year] YYYY"));
+const chalk = require('chalk');
+console.log(chalk.blue('Hello world!'));
